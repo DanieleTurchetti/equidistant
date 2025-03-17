@@ -1,0 +1,19 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Section6.m2
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Daniele
+    family-names: Turchetti
+    email: daniele.turchetti@durham.ac.uk
+  - given-names: Michel
+    family-names: Matignon
+    email: Michel.Matignon@math.u-bordeaux.fr
+  - given-names: Guillaume
+    family-names: Pagot
+    email: guillaume.pagot@gmail.com
