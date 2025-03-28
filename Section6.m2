@@ -111,10 +111,8 @@ I=ideal(L#1,L#2,L#3,L#4,L#5,L#6,L#7,L#8,L#9,L#0-1)
 gens gb(I)
 
 ---Program 6.7---
-clearAll
-
 R = ZZ/3
-S = R[c,t2,t3,t4,t5,s2,s4,s5,a,b, MonomialOrder => Eliminate 8][X];
+S = R[c,t2,t3,t4,t5,s2,s4,s5,a,b, MonomialOrder => Lex][X];
 
 Q1 = a*(X^5+s2*X^3-X^2+s4*X-s5);
 Q2 = (X^5+t2*X^3-t3*X^2+t4*X-t5);
